@@ -10,12 +10,14 @@
   </head>
 
   <body>
-      
-    <div class="search-box">
-      <input class="search-txt" type="text" name="" placeholder="Type to search">
-      <a class="search-btn" href="">
-        <i class="fas fa-search"></i>
-      </a>
-    </div>
+    <script src="js/search.js"></script>
+    <form onsubmit="return search()" class="search-box">
+        <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Type to search">
+        <a class="search-btn" href="">
+            <i onclick="return search()" class="fas fa-search"></i>
+        </a>
+        </div>
+    </form>
   </body>
 </html>
