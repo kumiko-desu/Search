@@ -13,6 +13,8 @@ body{
     height: 40px;
     border-radius: 40px;
     padding: 10px;
+    display: flex;
+    flex-flow: row;
   }
   
   .search-box:hover > .search-txt{
